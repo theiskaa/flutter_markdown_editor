@@ -1,14 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_button/flutter_button.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:markdown_editor/view/widgets/loading.dart';
 
 class Preview extends StatelessWidget {
-  final data;
+  final String data;
   Preview({this.data});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: (data != null) ? Markdown(data: data) : loading(),
+      body: (data != null)
+          ? Padding(
+              padding: const EdgeInsets.all(15),
+              child: MarkdownBody(data: data),
+            )
+          : loading(),
     );
   }
 }
