@@ -12,9 +12,16 @@ class Preview extends StatelessWidget {
       body: (data != null)
           ? Padding(
               padding: const EdgeInsets.all(15),
-              child: MarkdownBody(data: data),
+              child: Markdown(data: data),
             )
           : loading(),
     );
   }
 }
+/*
+# Hi there I'm Ismael 👋
+
+Mobile app developer at [**Lomsa**](https://lomsa.com)
+Focused on Dart-Flutter. 
+Contact me with: ***🇬🇧English,*** ***🇬🇪Georgian,*** ***🇦🇿Azerbaijani*** and ***🇹🇷Turkish.*** 
+*/
