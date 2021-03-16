@@ -18,10 +18,3 @@ class Preview extends StatelessWidget {
     );
   }
 }
-/*
-# Hi there I'm Ismael 👋
-
-Mobile app developer at [**Lomsa**](https://lomsa.com)
-Focused on Dart-Flutter. 
-Contact me with: ***🇬🇧English,*** ***🇬🇪Georgian,*** ***🇦🇿Azerbaijani*** and ***🇹🇷Turkish.*** 
-*/
